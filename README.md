@@ -20,6 +20,8 @@ Welcome to the Sentiment Analysis Project! This project includes sentiment class
 ### Docker 
 - For FastAPI with docker https://fastapi.tiangolo.com/deployment/docker/ 
 - Application can be packaged and deployed with any cloud service
+- Build the container : docker build -t your-app-name
+- Run the conatiner : docker run -p port:port your-app-name
 
 ### Deployment Steps
 1. Install the required packages: `pip install fastapi scikit-learn uvicorn` or  `pip install -r requirements.txt`
