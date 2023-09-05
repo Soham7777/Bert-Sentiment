@@ -12,9 +12,9 @@ Welcome to the Sentiment Analysis Project! This project includes sentiment class
 ### Jupyter Notebook
 - For a detailed walkthrough and code, you can refer to the [Jupyter Notebook](link-to-your-jupyter-notebook.ipynb) provided in this repository.
 
-### Overview
+### SVM Approach
 - The project also demonstrates the deployment of a sentiment classification model using Support Vector Machines (SVM) with a linear kernel.
-- Deployment with tensor flow model got 
+- Deployment with tensor flow model was consuming lot of resources and not feasible for my local system , so for a workaround deployed with svm
 - FastAPI is used to create a REST API for serving the SVM model.
 
 ### Docker 
@@ -28,12 +28,12 @@ Welcome to the Sentiment Analysis Project! This project includes sentiment class
 
 ### Example Screenshots
 Below are example screenshots demonstrating the SVM model in action:
+User Input:
+![input](https://github.com/Soham7777/Bert-Sentiment/assets/66548809/b3517bf2-b208-4f1e-868c-fdbb447a7403)
 
-![Screenshot 1](screenshot-1.png)
-_User Input_
+Response from app:
+![response](https://github.com/Soham7777/Bert-Sentiment/assets/66548809/8c8f1c37-c6bd-4f40-a6cb-7b678bf7e0c8)
 
-![Screenshot 2](screenshot-2.png)
-_Response from app_
 
 
 ## Getting Started
