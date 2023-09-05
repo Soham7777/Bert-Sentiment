@@ -12,14 +12,14 @@ Welcome to the Sentiment Analysis Project! This project includes sentiment class
 ### Jupyter Notebook
 - For a detailed walkthrough and code, you can refer to the [Jupyter Notebook](link-to-your-jupyter-notebook.ipynb) provided in this repository.
 
-## Docker 
-- For FastAPI with docker https://fastapi.tiangolo.com/deployment/docker/ 
-- Application can be packaged and deployed with any cloud service
-
 ### Overview
 - The project also demonstrates the deployment of a sentiment classification model using Support Vector Machines (SVM) with a linear kernel.
 - Deployment with tensor flow model got 
 - FastAPI is used to create a REST API for serving the SVM model.
+
+### Docker 
+- For FastAPI with docker https://fastapi.tiangolo.com/deployment/docker/ 
+- Application can be packaged and deployed with any cloud service
 
 ### Deployment Steps
 1. Install the required packages: `pip install fastapi scikit-learn uvicorn` or  `pip install -r requirements.txt`
