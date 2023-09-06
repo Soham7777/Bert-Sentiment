@@ -10,7 +10,7 @@ Welcome to the Sentiment Analysis Project! This project includes sentiment class
 - It achieved good predictive accuracy for sentiment classification.
 
 ### Jupyter Notebook
-- For a detailed walkthrough and code, you can refer to the [Jupyter Notebook](link-to-your-jupyter-notebook.ipynb) provided in this repository.
+- For a detailed walkthrough and code, you can refer to the [jupyter-notebook](https://github.com/Soham7777/Bert-Sentiment/blob/master/BERT_SVM_model_training.ipynb) provided in this repository.
 
 ### SVM Approach
 - The project also demonstrates the deployment of a sentiment classification model using Support Vector Machines (SVM) with a linear kernel.
