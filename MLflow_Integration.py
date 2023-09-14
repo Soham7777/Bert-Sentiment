@@ -78,14 +78,15 @@ if __name__ == "__main__":
         predictions = text_clf.predict(X_train)
         signature = infer_signature(X_train, predictions)
 
+        #connect remotely 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         # Model registry does not work with file store
         if tracking_url_type_store != "file":
 
             mlflow.sklearn.log_model(
-                text_clf, "model", registered_model_name="ElasticnetWineModel", signature=signature
+                text_clf, "model", registered_model_name="", signature=signature
             )
-            
+
         else:
             mlflow.sklearn.log_model(text_clf, "model", signature=signature)
