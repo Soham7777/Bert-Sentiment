@@ -1,5 +1,5 @@
 
-# Sentiment Analysis Project
+# Sentiment Analysis Project (BERT, Tensorflow , MLflow , FastAPI , SVM)
 
 Welcome to the Sentiment Analysis Project! This project includes sentiment classification of Amazon review data using a combination of deep learning with BERT encoders and a traditional machine learning approach with SVM. Here, you'll find details on both the deep learning and SVM-based deployment, along with example screenshots.
 
@@ -36,7 +36,8 @@ User Input:
 Response from app:
 ![response](https://github.com/Soham7777/Bert-Sentiment/assets/66548809/8c8f1c37-c6bd-4f40-a6cb-7b678bf7e0c8)
 
-
+### MLflow Experiment tracking example after trials with 3 different kernels : **Linear , Polynomial , RBF**
+![image](https://github.com/Soham7777/Bert-Sentiment/assets/66548809/19b2dd83-f107-4e43-af1d-679ecfb6fbc4)
 
 ## Getting Started
 
